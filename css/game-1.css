@@ -1,0 +1,137 @@
+#coffeeweight {
+    width: 45%;
+    left: 25%;
+    top: 21%;
+}
+  
+
+#background::after {
+    src: local('../assets/element_game1_forcode/bg_game1_signp2.png');
+}
+
+#switch-btn {
+    width: 17%;
+    left: 80%;
+    top: 85%;
+}
+
+#switch-btn:active {
+    width: 18%;
+    left: 79.5%;
+    top: 84.5%;
+}
+
+#switch-btn::after {
+    src: local('../assets/element_game1_forcode/button_p2.png');
+}
+
+@keyframes kettle {
+    0% {
+        rotate: -34.94deg;
+    }
+
+    100% {
+        rotate: -53.91deg;
+    }
+}
+
+#kettle{
+    width: 45%;
+    left: 70%;
+    top: -25%;
+    rotate: -34.94deg;
+    animation-name: kettle;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+
+#waterpour {
+    width: 7%;
+    left: 55.5%;
+    top: 24%;
+    opacity: 0;
+}
+
+@keyframes coffeepour {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 38%;
+    }
+}
+
+#coffeepour {
+    width: 4%;
+    height: 38%;
+    left: 46.5%;
+    top: 46%;
+    opacity: 0;
+    animation-name: coffeepour;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+
+#point {
+    font-size: 180%;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 20%;
+    top: 80.3%;
+    left: 37.8%;
+}
+
+@keyframes coffeeup {
+    0% {
+        height: 0%;
+        top: 79.5%;
+        display: none;
+    }
+
+    100% {
+        height: 75%;
+        top: 18%;
+        display: block;
+    }
+}
+
+#coffeeup {
+    width: 70%;
+    left: 15%;
+    height: 0%;
+    top: 80%;
+    animation-name: coffeeup;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    animation-play-state: paused;
+}
+
+.mask {
+    mask-image: url(../assets/element_game1_forcode/coffeeweightmask.png);
+    mask-size: 61%;
+    mask-position: 50%;
+    mask-repeat: no-repeat;    
+}
+
+#mask {
+    left: 25%;
+    top: 39.5%;
+    width: 45.1%;
+    height: 52%;
+}
+
+.textg1 {
+    font-size: 2.4vw;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    padding-right: 5%;
+}

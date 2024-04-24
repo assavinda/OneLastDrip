@@ -1,0 +1,12 @@
+#map-video {
+    margin-top: -2.5%;
+}
+
+.clickstage {
+    width: 10%;
+    height: 25%;
+    left: 30.4%;
+    top: 2.5%;
+    z-index: 20;
+    border-radius: 500px;
+}

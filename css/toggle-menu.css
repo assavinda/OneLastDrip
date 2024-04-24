@@ -1,0 +1,55 @@
+#toggle-menu {
+    position: fixed;
+}
+
+#menu-bg {
+    opacity: 1;
+}
+
+#close-btn {
+    width: 5%;
+    top: 2%;
+    left: 90%;
+}
+
+#close-btn:active {
+    width: 6%;
+    top: 0%;
+    left: 89.5%;
+}
+
+#homepage-btn {
+    width: 30%;
+    top: 15%;
+    left: 45%;
+}
+
+#homepage-btn:active {
+    width: 31%;
+    top: 14.5%;
+    left: 44.5%;
+}
+
+#howtoplay-btn {
+    width: 30%;
+    top: 65%;
+    left: 45%;
+}
+
+#howtoplay-btn:active {
+    width: 31%;
+    top: 64.5%;
+    left: 44.5%;
+}
+
+#motion-story-btn {
+    width: 30%;
+    top: 40%;
+    left: 20%;
+}
+
+#motion-story-btn:active {
+    width: 31%;
+    top: 39.5%;
+    left: 19.5%;
+}

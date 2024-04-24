@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/game-1.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/toggle-menu.css">
+    <link rel="stylesheet" href="../css/paper.css">
+    <link rel="stylesheet" href="../css/howtoplay.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/game-3.css">
+    <link rel="stylesheet" href="../css/game-5.css">
+    <link rel="stylesheet" href="../css/end.css">
+    <title>One Last Drip</title>
+</head>
+<body>
+    <div id="container" class="container">
+
+        <img id="logo-to-menu" class="sm-elements" src="../assets/element_toggle_menu/ele_new_logo_menu_toogle.png">
+
+        <section id="toggle-menu" class="contents hidden" style="z-index: 400;">
+            <img id="menu-bg" class="lg-elements" src="../assets/element_toggle_menu/bg_toggle_menu.png">
+            <img id="close-btn" class="sm-elements" src="../assets/element_toggle_menu/button_close_tab.png">
+            <img id="homepage-btn" class="sm-elements" src="../assets/element_toggle_menu/button_Home_page.png">
+            <img id="howtoplay-btn" class="sm-elements" src="../assets/element_toggle_menu/button_how_to_play.png">
+            <img id="motion-story-btn" class="sm-elements" src="../assets/element_toggle_menu/button_motion_story.png">
+            
+        </section>
+
+        <section id="paper-scene" class="contents hidden" style="z-index: 100;">
+            <img class="lg-elements" src="../assets/element_toggle_menu/bg_toggle_menu.png" style="opacity: 0.6;">
+            <div id="paper-div">
+                <img id="paper-left" class="sm-elements sidepaper papers" src="../assets/popup_paper/paper_left.png" style="z-index: 10;">
+                <img id="paper-right" class="sm-elements sidepaper papers" src="../assets/popup_paper/paper_right.png" style="z-index: 10;">
+                <img id="paper-center" class="papers" src="../assets/popup_paper/paper_center.png" style="z-index: 9;">
+                <div id="paper-contents" class="sm-elements">
+                    <div>
+                        <p id="station-text">station 1</p>
+                        <img id="paper-line" src="../assets/popup_paper/Line 4.png" style="z-index: 9;">
+                    </div>
+                    <div id="paper-inner-contents">
+                        <img id="paper-innerimage" class="hidden" src="../assets/popup_paper/popup_ele_sign_sta1.png">
+                        <p id="paper-innertext">
+                            เริ่มเดินทางได้ไม่นาน เหล่านักสำรวจก็ได้พบกับ<br>
+                            แคมป์ร้างแห่งหนึ่งที่เต็มไปด้วยอุปกรณ์ทำกาแฟ<br>
+                            จึงขอหยุดแวะโชว์สกิลดริปกาแฟกันเสียหน่อย
+                        </p>
+                    </div>
+                    <div id="paper-innerbtn" class="sm-elements">
+                        <img id="paper-innerback" class="innerbtn hidden" src="../assets/popup_paper/popup_button_back.png">
+                        <img id="paper-innernext" class="innerbtn" src="../assets/popup_paper/popup_button_next.png">
+                        <img id="paper-innernext2" class="innerbtn hidden" src="../assets/popup_paper/popup_button_next.png">
+                        <img id="paper-p2btn" class="innerbtn hidden" src="../assets/popup_paper/p2.png">
+                        <img id="paper-innerstart" class="innerbtn hidden" src="../assets/popup_paper/popup_button_start.png">
+                        <img id="paper-inneryes" class="innerbtn hidden" src="../assets/popup_paper/yes.png">
+                        <img id="paper-innerno" class="innerbtn hidden" src="../assets/popup_paper/no.png">
+                    </div>
+                </div>
+            </div>
+            <img id="paper-outernext" class="sm-elements hidden" src="../assets/popup_paper/popup_button_next.png">
+            <script type="module" src="../js/paper.js"></script>
+        </section>
+
+        <section id="homepage" class="contents">
+            <div>
+                <video class="video-bg" src="../assets/ele_homepage/homepage_new.mp4" autoplay loop muted></video>
+            </div>
+            <img id="logo-home" class="sm-elements" src="../assets/ele_homepage/ele_Logo_homepage.png" style="z-index: 1;">
+            <img id="start-btn" class="sm-elements" src="../assets/ele_homepage/button_let_start.png" style="z-index: 2;">
+
+            <script type="module" src="../js/homepage.js"></script>
+        </section>
+
+        <section id="video-motion-scene" class="contents hidden">
+
+            <script type="module" src="../js/videomotion.js"></script>
+        </section>
+
+        <section id="howtoplay-scene" class="contents hidden">
+            <img id="howto-bg" class="sm-elements" src="../assets/howtoplay_ele/howtoplay_bg.png">
+            <div id="howto-div" class="sm-elements">
+                <img id="howto-image" src="../assets/howtoplay_ele/howtoplay_ele_board.png">
+                <br>
+                <p id="howto-text">นำ coffee tokens ทั้งหมดวางลงบนกระดานกองกลาง</p>
+            </div>
+            <img id="howto-left" class="sm-elements howto-btn" src="../assets/howtoplay_ele/howtoplay_button_left.png">
+            <img id="howto-right" class="sm-elements howto-btn" src="../assets/howtoplay_ele/howtoplay_button_right.png">
+
+            <img id="howto-start" class="sm-elements hidden" src="../assets/howtoplay_ele/howtoplay_button_start.png">
+            <img id="close-htp" class="sm-elements hidden" src="../assets/element_toggle_menu/button_close_tab.png">
+            <script type="module" src="../js/howtoplay.js"></script>
+        </section>
+
+        <section id="map-scene" class="contents hidden">
+            <div>
+                <video id="map-video" class="video-bg" src="../assets/VDO คั่นแต่ละเสตจ/stage_jump1.mp4" autoplay muted></video>
+            </div>
+            <div id="clickstage-1" class="sm-elements clickstage"></div>
+            <script type="module" src="../js/map.js"></script>
+        </section>
+
+        <section id="game-1" class="contents hidden">
+            <img class="lg-elements" src="../assets/element_game1_forcode/game1_bg.png" style="z-index: 0;">
+            <img id="background" class="lg-elements" src="../assets/element_game1_forcode/bg_game1_signp1.png" style="z-index: 1;">
+            <img id="coffeeweight" class="sm-elements" src="../assets/element_game1_forcode/ele_game1_coffeeweight.png" style="z-index: 3;">
+            <img id="kettle" class="sm-elements" src="../assets/element_game1_forcode/ele_kettle_(เผื่อวิคใช้หมุนองศาด้วยโค้ดเองง).png" style="z-index: 4;">
+            <img id="waterpour" class="sm-elements" src="../assets/element_game1_forcode/ele_game1_water_pour.png" style="z-index: 1;">
+            <img id="coffeepour" class="sm-elements" src="../assets/element_game1_forcode/ele_game1_coffee_pour.png" style="z-index: 1;">
+            <div id="mask" class="sm-elements mask" style="z-index: 2;">
+                <img id="coffeeup" class="sm-elements" src="../assets/element_game1_forcode/ele_game1_coffee_up_sizeele.png" style="z-index: 2;">
+            </div>
+            <div>
+                <p id="point" class="sm-elements" style="z-index: 100;">0.0</p>
+            </div>
+            <div>
+                <img id="switch-btn" class="sm-elements" src="../assets/element_game1_forcode/button_p2.png" style="z-index: 3;">
+            </div>
+            <div class="sm-elements" style="color: white; padding-left: 2%; top: 81.5%; left: 0%; height: 20%; width: 20%; z-index: 10;">
+                <div style="display: flex; justify-content: flex-start; height: 35%;">
+                    <p class="textg1">P1 :</p> 
+                    <p id="g1p1point" class="textg1">0 g</p>
+                </div>
+                <div style="display: flex; justify-content: flex-start; height: 35%;">
+                    <p class="textg1">P2 :</p> 
+                    <p id="g1p2point" class="textg1">0.00 g</p>
+                </div>
+            </div>
+            <script type="module" src="../js/game-1.js"></script>
+        </section>
+
+        <section id="game-3" class="contents hidden">
+            <img class="lg-elements" src="../assets/element_game3_forcode/bg_game3.png">
+            <div class="sm-elements" style="left: 70%; height: 12%; width: 15%;">
+                <div style="display: flex; justify-content: flex-start; padding-right: 5%;">
+                    <img class="top-mag" src="../assets/element_game3_forcode/element_ส่วนข้างบน/ele_magnifier_red.png">
+                    <p id="g3p1point" class="top-point">+ 0</p>
+                </div>
+            </div>
+            <div class="sm-elements" style="left: 85%; height: 12%; width: 15%;">
+                <div style="display: flex; justify-content: flex-start; padding-right: 5%;">
+                    <img class="top-mag" src="../assets/element_game3_forcode/element_ส่วนข้างบน/ele_magnifier_blue.png">
+                    <p id="g3p2point" class="top-point">+ 0</p>
+                </div>
+            </div>
+            <div id="whiteline" class="sm-elements"></div>
+            <div id="redline" class="sm-elements"></div>
+            <div id="trash-area" class="sm-elements"></div>
+            <div id="prevent" class="lg-elements hidden"></div>
+            <img id="g3next" class="sm-elements hidden" src="../assets/element_game3_forcode/g3next.png">
+            <script type="module" src="../js/game-3.js"></script>
+        </section>
+
+        <section id="game-5" class="contents hidden">
+            <img class="lg-elements" src="../assets/element_game5/ele_bg_game5.png">
+            <img id="sign1" class="sm-elements signs" src="../assets/element_game5/1.png" style="z-index: 1;">
+            <img id="sign1shadow" class="lg-elements shadows hidden" src="../assets/element_game5/1_shadow.png" style="z-index: 2;">
+            <img id="sign2" class="sm-elements signs" src="../assets/element_game5/2.png" style="z-index: 3;">
+            <img id="sign2shadow" class="lg-elements shadows hidden" src="../assets/element_game5/2_shadow.png" style="z-index: 4;">
+            <img id="sign3" class="sm-elements signs" src="../assets/element_game5/3.png" style="z-index: 5;">
+            <img id="sign3shadow" class="lg-elements shadows hidden" src="../assets/element_game5/3_shadow.png" style="z-index: 6;">
+            <img id="sign4" class="sm-elements signs" src="../assets/element_game5/4.png" style="z-index: 7;">
+            <img id="sign4shadow" class="lg-elements shadows hidden" src="../assets/element_game5/4_shadow.png" style="z-index: 8;">
+            <img id="sign5" class="sm-elements signs" src="../assets/element_game5/5.png" style="z-index: 9;">
+            <img id="sign5shadow" class="lg-elements shadows hidden" src="../assets/element_game5/5_shadow.png" style="z-index: 10;">
+            <img class="lg-elements" src="../assets/element_game5/ele_game5_line.png" style="pointer-events: none; touch-action: none; z-index: 11;">
+
+            <script type="module" src="../js/game-5.js"></script>
+        </section>
+
+        <section id="end-scene" class="contents hidden">
+            <div>
+                <video class="video-bg" src="../assets/element_ending/MOTION_ENDING_3.mp4" autoplay loop muted></video>
+            </div>
+            <img id="end-btn" class="sm-elements" src="../assets/element_ending/button_back_to_home.png">
+            <p id="end-text" class="sm-elements">
+                ในท้ายที่สุด พวกคุณก็ได้บรรลุภารกิจ <br>
+                “One Last Drip”และทำให้ผู้คนมากมาย<br>
+                ได้ลิ้มรสกาแฟของพวกเขาอีกครั้ง!<br><br>
+                <span style="font-size: 3vw;">
+                    “แล้วกาแฟในโลกของพวกคุณล่ะ<br>
+                    ใกล้จะหายไปแล้วหรือยัง ?”
+                </span>
+            </p>
+            <script type="module" src="../js/end.js"></script>
+        </section>
+    </div>
+
+    <script type="module" src="../js/general.js"></script>
+</body>
+</html>

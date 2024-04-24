@@ -1,0 +1,225 @@
+#paper-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@keyframes paper-center {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 55%;
+    }
+}
+
+#paper-center {
+    width: 55%;
+    height: 55%;
+    margin-top: 14%;
+    animation-name: paper-center;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.sidepaper {
+    top: 18%;
+    width: 8.3%;
+}
+
+@keyframes paper-left {
+    0% {
+        left: 48%;
+    }
+
+    100% {
+        left: 71%;
+    }
+}
+
+#paper-left {
+    animation-name: paper-left;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+@keyframes paper-right {
+    0% {
+        left: 48%;
+    }
+
+    100% {
+        left: 20.68%;
+    }
+}
+
+#paper-right {
+    animation-name: paper-right;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+#paper-outernext {
+    width: 17%;
+    left: 80%;
+    top: 85%;
+}
+
+#paper-outernext:active {
+    width: 18%;
+    left: 79.5%;
+    top: 84.5%;
+}
+
+@keyframes papercontents {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#paper-contents {
+    width: 40%;
+    height: 42%;
+    margin-top: 15%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    z-index: 20;
+    animation-name: papercontents;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+#paper-line {
+    width: 50%;
+    height: 1%;
+    margin-bottom: 5%;
+}
+
+#station-text {
+    font-size: 3.5vw;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+#paper-innertext {
+    font-size: 1.8vw;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    margin: 2%;
+}
+
+#paper-innerimage {
+    width: 26%;
+    margin-bottom: 2%;
+}
+
+#paper-innerbtn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 105%;
+    width: 100%;
+    height: 19%;
+}
+
+.innerbtn {
+    width: 30%;
+    margin: 1%;
+}
+
+#paper-innernext {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#paper-innernext:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-innerback {
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+#paper-innerback:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-innerstart {
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+#paper-innerstart:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-inneryes {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#paper-inneryes:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-innerno {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#paper-innerno:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-innernext2 {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#paper-innernext2:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+#paper-p2btn {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#paper-p2btn:active {
+    width: 31%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
