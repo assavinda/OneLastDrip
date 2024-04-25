@@ -25,7 +25,7 @@ let pointUp = setInterval(() => {
     pointText.innerHTML = point.toFixed(2) + ' g'
     if(point >= 300) {
         uprate = 0
-        pointText.innerHTML = 'Enough!!'
+        pointText.innerHTML = 'Enough!'
         coffeeup.style.animationPlayState = 'paused'
         waterpour.style.display = 'none'
     }
@@ -52,9 +52,9 @@ kettle.addEventListener('touchmove',(event) => {
     const currentX = event.touches[0].clientX;
     const currentY = event.touches[0].clientY;
     kettle.style.left = (((currentX / window.innerWidth) * 100) - 30) + '%'
-    kettle.style.top = (((currentY / window.innerHeight) * 100) - 30) + '%'
+    kettle.style.top = (((currentY / window.innerHeight) * 100) - 40) + '%'
     waterpour.style.left = (((currentX / window.innerWidth) * 100) - 35) + '%'
-    waterpour.style.top = (((currentY / window.innerHeight) * 100) + 17) + '%'
+    waterpour.style.top = (((currentY / window.innerHeight) * 100) + 7) + '%'
     waterpour.style.height = (((-currentY / window.innerHeight) * 100) + 25) + '%'
 
     if ((((currentX / window.innerWidth) * 100)) <= 88 && (((currentX / window.innerWidth) * 100)) >= 75 && (((currentY / window.innerHeight) * 100)) <= 30) {

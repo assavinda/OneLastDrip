@@ -170,64 +170,10 @@ const paperContents = {
                     เก่งแบบนี้ก็รับ coffee tokenจำนวน 5 เมล็ดไปเลย !
                     `
                 ]
-            },
-            1:{
-                question: [
-                    `Question`,
-                    `
-                    กากกาแฟเหลือทิ้งนั้น<br>
-                    ไม่สามารถนำมาใช้รีไซเคิลได้
-                    `
-                ],
-                yes: [
-                    `Failed`,
-                    `
-                    อีกนิดเดียวเท่านั้น ! <br>
-                    กากกาแฟนั้นแม้ดูเผิน ๆ อาจเหมือนขยะเหลือทิ้ง <br>
-                    แต่แท้จริงแล้วสามารถนำมารีไซเคิล<br>
-                    เพื่อลดการสร้างขยะด้วย zero waste ได้ !
-                    `
-                ],
-                no: [
-                    `Goodjob!`,
-                    `
-                    กากกาแฟนั้นสามารถรีไซเคิลสร้างประโยชน์ต่าง ๆ <br>
-                    ซึ่งเป็นการลดการสร้างขยะ ช่วยลดโลกร้อนได้<br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
-                    `
-                ]
             }
         },
         sign2: {
             0:{
-                question: [
-                    `Question`,
-                    `
-                    หลังภาวะโลกร้อนรุนแรงยิ่งขึ้น<br>
-                    อุณหภูมิบนโลกก็พุ่งสูงขึ้นอย่างต่อเนื่อง<br>
-                    ส่งผลให้กาแฟโรบัสต้าเสี่ยงสูญพันธุ์
-
-                    `
-                ],
-                yes: [
-                    `Failed`,
-                    `
-                    อีกนิดเดียวเท่านั้น !<br>
-                    แท้จริงแล้ว กาแฟที่มีโอกาสสูญพันธุ์คือ อาราบิก้า<br>
-                    เนื่องจากไม่ทนต่อการเปลี่ยนแปลงสภาพอากาศ<br>
-                    มาพยายามด้วยกันใหม่ครั้งหน้านะ
-                    `
-                ],
-                no: [
-                    `Goodjob!`,
-                    `
-                    แท้จริงแล้ว กาแฟที่มีโอกาสสูญพันธุ์คือ อาราบิก้า <br>
-                    เนื่องจากไม่ทนต่อการเปลี่ยนแปลงสภาพอากาศ<br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
-                    `
-                ]
-            },
-            1:{
                 question: [
                     `Question`,
                     `
@@ -279,56 +225,10 @@ const paperContents = {
                     เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
                     `
                 ]
-            },
-            1:{
-                question: [
-                    `Question`,
-                    `
-                    การขนส่งกาแฟนั้นสร้างมลพิษทางอากาศในปริมาณน้อย <br>
-                    เพราะมีกฎหมายควบคุมปริมาณการส่งออก
-                    `
-                ],
-                yes: [
-                    `Failed`,
-                    `อีกนิดเดียวเท่านั้น ! <br>
-                    การขนส่งกาแฟนั้นอาศัยเชื้อเพลิง fossil ในปริมาณมาก <br>
-                    ปล่อยก๊าซเรือนกระจกจนโลกร้อน มาพยายามด้วยกันใหม่ครั้งหน้านะ
-                    `
-                ],
-                no: [
-                    `Goodjob!`,
-                    `แท้จริงแล้ว การขนส่งกาแฟนั้นอาศัยเชื้อเพลิง fossil ในปริมาณมาก<br>
-                    ปล่อยก๊าซเรือนกระจกจนโลกร้อน <br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
-                    `
-                ]
             }
         },
         sign4: {
             0:{
-                question: [
-                    `Question`,
-                    `ภาวะโลกร้อนส่งผลให้คุณภาพ<br>
-                    และรสชาติของกาแฟแย่ลง
-                    `
-                ],
-                yes: [
-                    `Goodjob!`,
-                    `เมื่ออุณหภูมิสูงขึ้น โรคสนิมกาแฟก็เพิ่มสูงขึ้นด้วย<br>
-                    ส่งผลให้การควบคุมคุณภาพกาแฟเป็นไปได้ยาก<br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
-                    `
-                ],
-                no: [
-                    `Failed`,
-                    `อีกนิดเดียวเท่านั้น ! <br>
-                    เมื่ออุณหภูมิสูงขึ้น โรคสนิมกาแฟก็เพิ่มสูงขึ้นด้วย<br>
-                    ส่งผลให้การควบคุมคุณภาพกาแฟเป็นไปได้ยาก<br>
-                    มาพยายามด้วยกันใหม่ครั้งหน้านะ
-                    `
-                ]
-            },
-            1:{
                 question: [
                     `Question`,
                     `ภาวะโลกร้อนส่งผลให้คุณภาพ<br>
@@ -371,29 +271,7 @@ const paperContents = {
                     `Goodjob!`,
                     `กาแฟ 1 แก้วนั้น สร้างขยะถึง 5 ชิ้นและอาจมากขึ้นอีก<br>
                     หากเราสั่งจาก delivery หรือนับรวมขยะจากการชงกาแฟภายในร้าน<br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย
-                    `
-                ]
-            },
-            1:{
-                question: [
-                    `Question`,
-                    `โดยเฉลี่ยแล้วกาแฟ 1 แก้วนั้นสร้างขยะมากถึง 3 ชิ้น
-                    `
-                ],
-                yes: [
-                    `Failed`,
-                    `อีกนิดเดียวเท่านั้น ! <br>
-                    กาแฟ 1 แก้วนั้น สร้างขยะถึง 5 ชิ้นและอาจมากขึ้นอีก <br>
-                    หากเราสั่งจาก delivery หรือนับรวมขยะจากการชงกาแฟภายในร้าน<br>
-                    มาพยายามด้วยกันใหม่ครั้งหน้านะ
-                    `
-                ],
-                no: [
-                    `Goodjob!`,
-                    `กาแฟ 1 แก้วนั้น สร้างขยะถึง 5 ชิ้นและอาจมากขึ้นอีก<br>
-                    หากเราสั่งจาก delivery หรือนับรวมขยะจากการชงกาแฟภายในร้าน<br>
-                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย
+                    เก่งแบบนี้ก็รับ coffee token จำนวน 5 เมล็ดไปเลย !
                     `
                 ]
             }
@@ -451,12 +329,8 @@ const sceneObserver = new MutationObserver(mutationsList => {
                     innerNext.classList.add('hidden')
                     outerNext.classList.add('hidden')
                     image.classList.add('hidden')
-
                     yes.classList.remove('hidden')
                     no.classList.remove('hidden')
-
-                    
-
                     console.log('qa')
                 }
                 else {
@@ -521,6 +395,7 @@ function NextScript() {
         if(paperContents[station][index][0] != 'none') {
             image.classList.remove('hidden')
             image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
+            // if()
         }
         else {
             image.classList.add('hidden')
@@ -590,7 +465,7 @@ outerNext.addEventListener('click',() => {
 yes.addEventListener('click',() => {
     let ans = 'yes'
     ShowResult(ans)
-    
+
 })
 
 no.addEventListener('click',() => {
@@ -605,7 +480,7 @@ function ShowResult(ans) {
     yes.classList.add('hidden')
     no.classList.add('hidden')
 
-    if(index%2 != 0) {
+    if(signClicked.length >= 1) {
         innerNext2.classList.remove('hidden')
     }
     else {
@@ -613,24 +488,16 @@ function ShowResult(ans) {
     }
 }
 
-function NextQuestion() {
-    index++;
-    stationtext.innerHTML = paperContents[station][targetID][index]['question'][0]
-    text.innerHTML = paperContents[station][targetID][index]['question'][1]
-    innerNext.classList.add('hidden')
-    outerNext.classList.add('hidden')
-    image.classList.add('hidden')
-
-    innerNext2.classList.add('hidden')
-    p2btn.classList.add('hidden')
-    yes.classList.remove('hidden')
-    no.classList.remove('hidden')
-}
-
 let signClicked = []
 
 
 innerNext2.addEventListener('click',() => {
+    thisscene.classList.add('hidden')
+    sm.NextScene()
+})
+
+p2btn.addEventListener('click',() => {
+    index++;
     thisscene.classList.add('hidden')
     innerNext2.classList.add('hidden')
     sign.style.pointerEvents = 'none'
@@ -638,13 +505,5 @@ innerNext2.addEventListener('click',() => {
     const shadow = document.getElementById(`${targetID}shadow`)
     shadow.classList.remove('hidden')
     signClicked.push(targetID)
-    if(signClicked.length >= 5) {
-        setTimeout(() => {
-            sm.NextScene()
-        },500)
-    }
-})
-
-p2btn.addEventListener('click',() => {
-    NextQuestion()
+    p2btn.classList.add('hidden')
 })
