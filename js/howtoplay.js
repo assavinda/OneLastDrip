@@ -2,6 +2,8 @@ import { SceneManagement } from "./SceneManage.js";
 const sm = new SceneManagement()
 
 const thisscene = document.getElementById('howtoplay-scene');
+const vdo = document.getElementById('vdomotion')
+
 const howtoscript = {
     board: `นำ coffee tokens ทั้งหมดวางลงบนกระดานกองกลาง`,
     token: `ผู้เล่นจะได้รับ  coffee tokens เริ่มต้น คนละ 10 เมล็ด <br>โดยตัวเลขข้างหลังจะแทนจำนวนเมล็ดกาแฟของเหรียญนั้น`,
@@ -18,6 +20,8 @@ const sceneObserver = new MutationObserver(mutationsList => {
         if(thisscene.classList.contains('hidden') == false) {
             const container = document.getElementById('container')
             container.style.overflow = 'scroll'
+            vdo.muted = true
+            vdo.paused
         }
         else {
             container.style.overflow = 'hidden'
