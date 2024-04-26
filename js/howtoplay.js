@@ -2,7 +2,6 @@ import { SceneManagement } from "./SceneManage.js";
 const sm = new SceneManagement()
 
 const thisscene = document.getElementById('howtoplay-scene');
-const vdo = document.getElementById('vdomotion')
 
 const howtoscript = {
     board: `นำ coffee tokens ทั้งหมดวางลงบนกระดานกองกลาง`,
@@ -20,13 +19,13 @@ const sceneObserver = new MutationObserver(mutationsList => {
         if(thisscene.classList.contains('hidden') == false) {
             const container = document.getElementById('container')
             container.style.overflow = 'scroll'
-            vdo.muted = true
-            vdo.paused
         }
         else {
+            const container = document.getElementById('container')
             container.style.overflow = 'hidden'
             console.log('next scene')
             console.log('turn off scroll')
+            container.scrollTo(0,0)
         }
       }
     });
@@ -42,7 +41,6 @@ let index = 0;
 
 const startbtn = document.getElementById('howto-start')
 startbtn.addEventListener('click',() => {
-    container.scrollTo(0,0)
     sm.NextScene();
 })
 

@@ -1,0 +1,31 @@
+#motionnext {
+    width: 17%;
+    left: 80%;
+    top: 78%;
+}
+
+#motionnext:active {
+    width: 18%;
+    left: 79.5%;
+    top: 77.5%;
+}
+
+#close-motion {
+    width: 5%;
+    top: 2%;
+    left: 90%;
+    z-index: 100;
+    position: fixed;
+}
+
+#close-motion:active {
+    width: 6%;
+    top: 0%;
+    left: 89.5%;
+}
+
+#video-motion-scene {
+    z-index: 199;
+    width: 102.3%;
+    height: 102.3%;
+}

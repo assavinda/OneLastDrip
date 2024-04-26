@@ -36,3 +36,22 @@ closehtp.addEventListener('click',() => {
     closehtp.classList.add('hidden')
     menuscene.classList.remove('hidden')
 })
+
+const motionscene = document.getElementById('video-motion-scene')
+const closemotion = document.getElementById('close-motion')
+const motion = document.getElementById('motion-story-btn')
+motion.addEventListener('click',() => {
+    htpscene.classList.add('hidden')
+    motionscene.classList.remove('hidden')
+    const motionnext = document.getElementById('motionnext')
+    motionnext.classList.add('dontstart')
+    motionnext.classList.add('hidden')
+    closemotion.classList.remove('hidden')
+    menuscene.classList.add('hidden')
+})
+
+closemotion.addEventListener('click',() => {
+    motionscene.classList.add('hidden')
+    closemotion.classList.add('hidden')
+    menuscene.classList.remove('hidden')
+})

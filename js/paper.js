@@ -395,7 +395,6 @@ function NextScript() {
         if(paperContents[station][index][0] != 'none') {
             image.classList.remove('hidden')
             image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
-            // if()
         }
         else {
             image.classList.add('hidden')
