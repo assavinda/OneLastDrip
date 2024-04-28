@@ -55,7 +55,7 @@ kettle.addEventListener('touchmove',(event) => {
     kettle.style.top = (((currentY / window.innerHeight) * 100) - 40) + '%'
     waterpour.style.left = (((currentX / window.innerWidth) * 100) - 35) + '%'
     waterpour.style.top = (((currentY / window.innerHeight) * 100) + 7) + '%'
-    waterpour.style.height = (((-currentY / window.innerHeight) * 100) + 25) + '%'
+    waterpour.style.height = (((-currentY / window.innerHeight) * 100) + 35) + '%'
 
     if ((((currentX / window.innerWidth) * 100)) <= 88 && (((currentX / window.innerWidth) * 100)) >= 75 && (((currentY / window.innerHeight) * 100)) <= 30) {
         if (kettleItrCount%2 == 0) {

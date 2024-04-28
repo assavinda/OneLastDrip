@@ -14,11 +14,6 @@ const sceneObserver = new MutationObserver(mutationsList => {
           setTimeout(() => {
             vdo.muted = false
           },500)
-            setTimeout(() => {
-              if(next.classList.contains('dontstart') == false) {
-                next.classList.remove('hidden')
-              }
-            },16000);
         }
         else {
             vdo.muted = true
@@ -36,3 +31,11 @@ sceneObserver.observe(thisscene, observerConfig);
 next.addEventListener('click',() => {
   sm.NextScene()
 })
+
+vdo.onplay = () => {
+  setTimeout(() => {
+    if(next.classList.contains('dontstart') == false) {
+      next.classList.remove('hidden')
+    }
+  },16000);
+}
