@@ -316,6 +316,18 @@ const sceneObserver = new MutationObserver(mutationsList => {
                 if(paperContents[station][index][0] != 'none') {
                     image.classList.remove('hidden')
                     image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
+                    if(paperContents[station][index][0] == 'magnifier') {
+                        image.style.width = 44 + '%'
+                    }
+                    else if(paperContents[station][index][0] == 'kettle') {
+                        image.style.width = 29 + '%'
+                    }
+                    else if(paperContents[station][index][0] == 'card') {
+                        image.style.width = 32 + '%'
+                    }
+                    else {
+                        image.style.width = 26 + '%'
+                    }
                 }
                 else {
                     image.classList.add('hidden')
@@ -341,6 +353,18 @@ const sceneObserver = new MutationObserver(mutationsList => {
                     if(paperContents[station][index][0] != 'none') {
                         image.classList.remove('hidden')
                         image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
+                        if(paperContents[station][index][0] == 'magnifier') {
+                            image.style.width = 44 + '%'
+                        }
+                        else if(paperContents[station][index][0] == 'kettle') {
+                            image.style.width = 29 + '%'
+                        }
+                        else if(paperContents[station][index][0] == 'card') {
+                            image.style.width = 32 + '%'
+                        }
+                        else {
+                            image.style.width = 26 + '%'
+                        }
                     }
                     else {
                         image.classList.add('hidden')
@@ -395,6 +419,18 @@ function NextScript() {
         if(paperContents[station][index][0] != 'none') {
             image.classList.remove('hidden')
             image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
+            if(paperContents[station][index][0] == 'magnifier') {
+                image.style.width = 44 + '%'
+            }
+            else if(paperContents[station][index][0] == 'kettle') {
+                image.style.width = 29 + '%'
+            }
+            else if(paperContents[station][index][0] == 'card') {
+                image.style.width = 32 + '%'
+            }
+            else {
+                image.style.width = 26 + '%'
+            }
         }
         else {
             image.classList.add('hidden')
@@ -419,6 +455,18 @@ function PreviousScript() {
         if(paperContents[station][index][0] != 'none') {
             image.classList.remove('hidden')
             image.src = `../assets/popup_paper/popup_ele_${paperContents[station][index][0]}.png`
+            if(paperContents[station][index][0] == 'magnifier') {
+                image.style.width = 44 + '%'
+            }
+            else if(paperContents[station][index][0] == 'kettle') {
+                image.style.width = 29 + '%'
+            }
+            else if(paperContents[station][index][0] == 'card') {
+                image.style.width = 32 + '%'
+            }
+            else {
+                image.style.width = 26 + '%'
+            }
         }
         else {
             image.classList.add('hidden')
